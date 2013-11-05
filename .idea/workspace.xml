@@ -67,7 +67,7 @@
     <file path="/AndroidManifest.xml" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383678737187" ignored="false" />
     <file path="/DeviceDiscoveryService.java" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383679007136" ignored="false" />
     <file path="/DiscoveredDevicesEvent.java" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383679040775" ignored="false" />
-    <file path="/readme.md" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383689398337" ignored="false" />
+    <file path="/readme.md" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383689464050" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +151,7 @@
       <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="22" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.37078652">
+            <state line="8" column="3" selection-start="404" selection-end="404" vertical-scroll-proportion="0.13483146">
               <folding />
             </state>
           </provider>
@@ -772,7 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="22" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.37078652">
+        <state line="8" column="3" selection-start="404" selection-end="404" vertical-scroll-proportion="0.13483146">
           <folding />
         </state>
       </provider>
