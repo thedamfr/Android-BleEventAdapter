@@ -30,7 +30,6 @@ public class GattService extends Service {
         if (mBluetoothGatt == null || mBluetoothGatt.connect())
             mBluetoothGatt = mDevice.connectGatt(this, false, mGattCallBack);
 
-        Log.e(TAG, "JE VIS BORDEL");
 
         return START_NOT_STICKY;
     }
@@ -45,7 +44,6 @@ public class GattService extends Service {
         }
 
 
-        Log.e(TAG, "JE MEURS BORDEL");
     }
 
     private BluetoothGattCallback mGattCallBack = new BluetoothGattCallback() {

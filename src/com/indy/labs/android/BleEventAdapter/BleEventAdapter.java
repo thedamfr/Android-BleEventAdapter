@@ -6,7 +6,6 @@ import android.content.Context;
 import android.content.Intent;
 import com.indy.labs.android.BleEventAdapter.service.discovery.device.DeviceDiscoveryService;
 import com.indy.labs.android.BleEventAdapter.service.gatt.GattService;
-import com.squareup.otto.ThreadEnforcer;
 
 public class BleEventAdapter {
 
@@ -27,12 +26,16 @@ public class BleEventAdapter {
     }
 
     public void connectDevice(Context context, BluetoothDevice device) {
-        context.stopService(new Intent(context, DeviceDiscoveryService.class));
+        context.stopService(new Intent(context, GattService.class));
+    }
+
+    public void closeConnection(Context context) {
+        context.stopService(new Intent(context, GattService.class));
+
     }
 
     public void startScanning(Context context) {
         context.startService(new Intent(context, DeviceDiscoveryService.class));
-        context.startService(new Intent(context, GattService.class));
     }
 
     public void stopScanning(Context context) {
