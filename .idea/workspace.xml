@@ -67,6 +67,7 @@
     <file path="/AndroidManifest.xml" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383678737187" ignored="false" />
     <file path="/DeviceDiscoveryService.java" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383679007136" ignored="false" />
     <file path="/DiscoveredDevicesEvent.java" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383679040775" ignored="false" />
+    <file path="/readme.md" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383688780492" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +131,7 @@
       <file leaf-file-name="GattService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/gatt/GattService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="33" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.0">
+            <state line="56" column="58" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,10 +139,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BleEventBus.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BleEventBus.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/BleEventBus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="59" selection-start="159" selection-end="322" vertical-scroll-proportion="0.16853933">
+            <state line="6" column="13" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="3" selection-start="3226" selection-end="3226" vertical-scroll-proportion="0.96629214">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiscoveryServiceEvent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DiscoveryServiceEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DescriptorReadEvent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DescriptorReadEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -150,7 +178,7 @@
       <file leaf-file-name="DeviceDiscoveryService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/discovery/device/DeviceDiscoveryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="66" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0">
+            <state line="84" column="90" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,7 +189,7 @@
       <file leaf-file-name="DiscoveredDevicesEvent.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DiscoveredDevicesEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="40" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+            <state line="21" column="40" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -198,33 +226,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DescriptorWriteEvent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DescriptorWriteEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CharacteristicChangedEvent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/CharacteristicChangedEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="150" selection-end="156" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -241,10 +242,11 @@
         <option value="$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/EventLogger.java" />
         <option value="$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/BleEventBus.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DiscoveredDevicesEvent.java" />
         <option value="$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/gatt/GattService.java" />
         <option value="$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/discovery/device/DeviceDiscoveryService.java" />
         <option value="$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/BleEventAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DiscoveredDevicesEvent.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -689,6 +691,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/gatt/GattConnectionState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DiscoveredDevicesEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="40" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DiscoveryServiceEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DescriptorReadEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/discovery/device/DeviceDiscoveryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="90" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/EventLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
@@ -698,42 +744,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/BleEventBus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DiscoveredDevicesEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="40" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/gatt/GattService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="33" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.0">
+        <state line="56" column="58" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/discovery/device/DeviceDiscoveryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="66" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/gatt/GattConnectionState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,9 +769,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/BleEventBus.java">
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="59" selection-start="159" selection-end="322" vertical-scroll-proportion="0.16853933">
+        <state line="97" column="3" selection-start="3226" selection-end="3226" vertical-scroll-proportion="0.96629214">
           <folding />
         </state>
       </provider>

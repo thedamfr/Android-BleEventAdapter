@@ -19,6 +19,10 @@ public class DiscoveredDevicesEvent {
         return bluetoothDevices;
     }
 
+    public BluetoothDevice getDevice() {
+        return device;
+    }
+
     @Override
     public String toString() {
         return "DiscoveredDevicesEvent{" +
