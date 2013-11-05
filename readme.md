@@ -4,7 +4,7 @@ Android 4.3 "Jelly Bean" introduced built in support for Bluetooth Low Energy ak
 
 Ble is a key to build a Internet Of Thing world. It allow us to connect multiple device to our smartphone or other smart-device.
 
-But using Android SDK to do so might be boring. See [Android SDK Guide](http://developer.android.com/guide/topics/connectivity/bluetooth-le.html)
+But using Android SDK to do so might be boring. See [Android SDK Guide](http://developer.android.com/guide/topics/connectivity/bluetooth-le.html).
 
 We, at Indy Trackers, think it should be easier.
 
@@ -50,7 +50,7 @@ That's even easier :
 ```java
 BleEventAdapter.getInstance().connectDevice(this, device);
 ```
-Where this is a some context.
+Where this is a some Context.
 
 
 ## More events !
@@ -79,7 +79,7 @@ We are Indy Trackers.
 
 We build the future of sport using smart hardware and connected device.
 
-Read more about how we do on our tech blog : [Indy Labs](http://labs.indytrackers.com)
+Read more about how we do on our tech blog [Indy Labs](http://labs.indytrackers.com).
 
 # License
 
