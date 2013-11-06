@@ -6,7 +6,7 @@ Ble is a key to build a Internet Of Thing world. It allow us to connect multiple
 
 But using Android SDK to do so might be boring. See [Android SDK Guide](http://developer.android.com/guide/topics/connectivity/bluetooth-le.html).
 
-## We, at Indy Trackers, think it should be easier.
+## At indy trackers, we think it should be easier.
 
 We think that decoupling software component allow us to make a easy-to-maintain software architecture.
 
@@ -62,24 +62,24 @@ Then, the BleAdapter will try discover devices Services and trigger a ServiceDis
 This event, like many other of this kind give you access to the BluetoothGatt on which you can directly use the writeCharacteristic or readCharacteristic methods.
 
 You will find other events :
-    - CharacteristicChangedEvent is called for notifications.
-    - CharacteristicReadEvent is called when a characteristic is read.
-    - CharacteristicWriteEvent is called when a characteristic has been wrotten.
-    - DescriptorReadEvent is called when a Descriptor is read.
-    - DescriptorWriteEvent is called when a Descriptor is wrotten.
-    - DiscoveryServiceEvent is called when service discovery begin.
-    - ReadRemoteRssiEvent is called when Rssi is read.
-    - ReliableWriteCompleted is called when a reliable write is completed.
-    - ScanningEvent is called when starting or stoping scanning for a device.
+- CharacteristicChangedEvent is called for notifications.
+- CharacteristicReadEvent is called when a characteristic is read.
+- CharacteristicWriteEvent is called when a characteristic has been wrotten.
+- DescriptorReadEvent is called when a Descriptor is read.
+- DescriptorWriteEvent is called when a Descriptor is wrotten.
+- DiscoveryServiceEvent is called when service discovery begin.
+- ReadRemoteRssiEvent is called when Rssi is read.
+- ReliableWriteCompleted is called when a reliable write is completed.
+- ScanningEvent is called when starting or stoping scanning for a device.
 
 
 # Who we are
 
-We are Indy Trackers.
+We are indy trackers.
 
-We build the future of sport using smart hardware and connected device.
+We build the future of sport using smart hardware and connected devices.
 
-Read more about how we do on our tech blog [Indy Labs](http://labs.indytrackers.com).
+Read more about how we do on our tech blog [indy labs](http://labs.indytrackers.com).
 
 # License
 

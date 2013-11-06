@@ -67,7 +67,7 @@
     <file path="/AndroidManifest.xml" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383678737187" ignored="false" />
     <file path="/DeviceDiscoveryService.java" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383679007136" ignored="false" />
     <file path="/DiscoveredDevicesEvent.java" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383679040775" ignored="false" />
-    <file path="/readme.md" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383689464050" ignored="false" />
+    <file path="/readme.md" changelist="67f2ab56-09e7-4aa9-bfa5-620f34fc1bac" time="1383768098525" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +82,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -118,7 +119,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -132,35 +132,51 @@
         <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/gatt/GattService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="56" column="58" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BleEventBus.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/BleEventBus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
+      <file leaf-file-name="EventLogger.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/EventLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="404" selection-end="404" vertical-scroll-proportion="0.13483146">
+            <state line="10" column="13" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscoveryServiceEvent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DiscoveryServiceEvent.java">
+      <file leaf-file-name="GattConnectionState.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/gatt/GattConnectionState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+            <state line="3" column="22" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BleEventAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/BleEventAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="68" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiscoveredDevicesEvent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DiscoveredDevicesEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="40" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceDiscoveryService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/discovery/device/DeviceDiscoveryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="90" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,53 +191,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceDiscoveryService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/discovery/device/DeviceDiscoveryService.java">
+      <file leaf-file-name="DiscoveryServiceEvent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DiscoveryServiceEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="90" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiscoveredDevicesEvent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/DiscoveredDevicesEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="40" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+            <state line="9" column="13" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BleEventAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/BleEventAdapter.java">
+      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="68" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GattConnectionState.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/gatt/GattConnectionState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="22" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+            <state line="29" column="91" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.48876405">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventLogger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/EventLogger.java">
+      <file leaf-file-name="BleEventBus.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/BleEventBus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="6" column="13" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -282,8 +274,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -410,17 +400,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
@@ -465,6 +457,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -490,19 +495,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -584,7 +576,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -595,6 +586,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -664,6 +656,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/EventLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/events/ServiceDiscoveredEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
@@ -730,18 +729,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/discovery/device/DeviceDiscoveryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="90" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/EventLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -755,24 +750,20 @@
     <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/service/gatt/GattService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="58" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/indy/labs/android/BleEventAdapter/BleEventAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="68" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="404" selection-end="404" vertical-scroll-proportion="0.13483146">
+        <state line="29" column="91" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.48876405">
           <folding />
         </state>
       </provider>
