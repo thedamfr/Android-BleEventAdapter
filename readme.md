@@ -62,15 +62,15 @@ Then, the BleAdapter will try discover devices Services and trigger a ServiceDis
 This event, like many other of this kind give you access to the BluetoothGatt on which you can directly use the writeCharacteristic or readCharacteristic methods.
 
 You will find other events :
-- CharacteristicChangedEvent is called for notifications.
-- CharacteristicReadEvent is called when a characteristic is read.
-- CharacteristicWriteEvent is called when a characteristic has been wrotten.
-- DescriptorReadEvent is called when a Descriptor is read.
-- DescriptorWriteEvent is called when a Descriptor is wrotten.
-- DiscoveryServiceEvent is called when service discovery begin.
-- ReadRemoteRssiEvent is called when Rssi is read.
-- ReliableWriteCompleted is called when a reliable write is completed.
-- ScanningEvent is called when starting or stoping scanning for a device.
++ CharacteristicChangedEvent is called for notifications.
++ CharacteristicReadEvent is called when a characteristic is read.
++ CharacteristicWriteEvent is called when a characteristic has been wrotten.
++ DescriptorReadEvent is called when a Descriptor is read.
++ DescriptorWriteEvent is called when a Descriptor is wrotten.
++ DiscoveryServiceEvent is called when service discovery begin.
++ ReadRemoteRssiEvent is called when Rssi is read.
++ ReliableWriteCompleted is called when a reliable write is completed.
++ ScanningEvent is called when starting or stoping scanning for a device.
 
 
 # Who we are
