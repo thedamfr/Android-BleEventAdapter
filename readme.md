@@ -6,7 +6,7 @@ Ble is a key to build a Internet Of Thing world. It allow us to connect multiple
 
 But using Android SDK to do so might be boring. See [Android SDK Guide](http://developer.android.com/guide/topics/connectivity/bluetooth-le.html).
 
-## At indy trackers, we think it should be easier.
+## We think it should be easier.
 
 We think that decoupling software component allow us to make a easy-to-maintain software architecture.
 
