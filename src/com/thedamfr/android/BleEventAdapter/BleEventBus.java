@@ -1,4 +1,4 @@
-package com.indy.labs.android.BleEventAdapter;
+package com.thedamfr.android.BleEventAdapter;
 
 import com.squareup.otto.Bus;
 import com.squareup.otto.ThreadEnforcer;

@@ -1,4 +1,4 @@
-package com.indy.labs.android.BleEventAdapter.service.gatt;
+package com.thedamfr.android.BleEventAdapter.service.gatt;
 
 
 public abstract class GattConnectionState {

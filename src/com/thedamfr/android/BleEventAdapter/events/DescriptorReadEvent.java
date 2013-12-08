@@ -1,15 +1,9 @@
-package com.indy.labs.android.BleEventAdapter.events;
+package com.thedamfr.android.BleEventAdapter.events;
 
 import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattDescriptor;
 
-/**
- * Created with IntelliJ IDEA.
- * User: damien
- * Date: 13-09-28
- * Time: 18:51
- * To change this template use File | Settings | File Templates.
- */
+
 public class DescriptorReadEvent {
     private final BluetoothGatt mGatt;
     private final BluetoothGattDescriptor mDescriptor;

@@ -1,11 +1,11 @@
-package com.indy.labs.android.BleEventAdapter;
+package com.thedamfr.android.BleEventAdapter;
 
 
 import android.bluetooth.BluetoothDevice;
 import android.content.Context;
 import android.content.Intent;
-import com.indy.labs.android.BleEventAdapter.service.discovery.device.DeviceDiscoveryService;
-import com.indy.labs.android.BleEventAdapter.service.gatt.GattService;
+import com.thedamfr.android.BleEventAdapter.service.discovery.device.DeviceDiscoveryService;
+import com.thedamfr.android.BleEventAdapter.service.gatt.GattService;
 
 public class BleEventAdapter {
 

@@ -1,13 +1,12 @@
-package com.indy.labs.android.BleEventAdapter.service.gatt;
+package com.thedamfr.android.BleEventAdapter.service.gatt;
 
 import android.app.Service;
 import android.bluetooth.*;
 import android.content.Intent;
 import android.os.IBinder;
-import android.util.Log;
-import com.indy.labs.android.BleEventAdapter.BleEventAdapter;
-import com.indy.labs.android.BleEventAdapter.BleEventBus;
-import com.indy.labs.android.BleEventAdapter.events.*;
+import com.thedamfr.android.BleEventAdapter.BleEventAdapter;
+import com.thedamfr.android.BleEventAdapter.BleEventBus;
+import com.thedamfr.android.BleEventAdapter.events.*;
 
 public class GattService extends Service {
 

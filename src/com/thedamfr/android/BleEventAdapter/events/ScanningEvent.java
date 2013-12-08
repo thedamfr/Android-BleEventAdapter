@@ -1,4 +1,4 @@
-package com.indy.labs.android.BleEventAdapter.events;
+package com.thedamfr.android.BleEventAdapter.events;
 
 
 public class ScanningEvent {

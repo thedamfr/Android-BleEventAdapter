@@ -1,9 +1,9 @@
-package com.indy.labs.android.BleEventAdapter;
+package com.thedamfr.android.BleEventAdapter;
 
 
 import android.bluetooth.BluetoothGattService;
 import android.util.Log;
-import com.indy.labs.android.BleEventAdapter.events.*;
+import com.thedamfr.android.BleEventAdapter.events.*;
 import com.squareup.otto.Subscribe;
 
 import java.util.List;

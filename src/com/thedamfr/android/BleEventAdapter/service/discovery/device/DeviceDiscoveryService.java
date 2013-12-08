@@ -1,4 +1,4 @@
-package com.indy.labs.android.BleEventAdapter.service.discovery.device;
+package com.thedamfr.android.BleEventAdapter.service.discovery.device;
 
 import android.app.Service;
 import android.bluetooth.BluetoothAdapter;
@@ -7,10 +7,9 @@ import android.bluetooth.BluetoothManager;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.IBinder;
-import android.widget.Toast;
-import com.indy.labs.android.BleEventAdapter.BleEventBus;
-import com.indy.labs.android.BleEventAdapter.events.DiscoveredDevicesEvent;
-import com.indy.labs.android.BleEventAdapter.events.ScanningEvent;
+import com.thedamfr.android.BleEventAdapter.BleEventBus;
+import com.thedamfr.android.BleEventAdapter.events.DiscoveredDevicesEvent;
+import com.thedamfr.android.BleEventAdapter.events.ScanningEvent;
 import com.squareup.otto.Produce;
 import java.util.HashSet;
 import java.util.Set;

@@ -16,6 +16,12 @@ So we build this BleEventAdapter.
 
 It's an event-based component encapsulating Bluetooth Low Energy communication.
 
+# Coming Features
+
+* Support for multiple Device Connection
+* Support for Samsung SDK
+* Support for RSSI tracking
+
 # Usage
 
 ## Discovering devices
@@ -73,19 +79,10 @@ You will find other events :
 * ReliableWriteCompleted is called when a reliable write is completed.
 * ScanningEvent is called when starting or stoping scanning for a device.
 
-
-# Who we are
-
-We are indy trackers.
-
-We build the future of sport using smart hardware and connected devices.
-
-Read more about how we do on our tech blog [indy labs](http://labs.indytrackers.com).
-
 # License
 
 ```
-Copyright 2013 Indy Trackers
+Copyright 2013 Damien Cavaillès
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
