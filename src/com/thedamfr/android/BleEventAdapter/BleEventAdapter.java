@@ -31,7 +31,6 @@ public class BleEventAdapter {
 
     public void closeConnection(Context context) {
         context.stopService(new Intent(context, GattService.class));
-
     }
 
     public void startScanning(Context context) {
