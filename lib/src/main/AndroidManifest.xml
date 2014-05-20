@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.thedamfr.android.BleEventAdapter">
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <application>
+        <service android:name=".service.discovery.device.DeviceDiscoveryService"/>
+        <service android:name=".service.gatt.GattService"/>
+    </application>
+</manifest>
