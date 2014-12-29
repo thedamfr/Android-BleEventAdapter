@@ -26,7 +26,8 @@ public class BleEventAdapter {
     }
 
     public void connectDevice(Context context, BluetoothDevice device) {
-        context.stopService(new Intent(context, GattService.class));
+        setBluetoothDevice(device);
+        context.startService(new Intent(context, GattService.class));
     }
 
     public void closeConnection(Context context) {
